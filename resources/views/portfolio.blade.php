@@ -25,7 +25,6 @@
                 <li><strong>Email:</strong> {{ $developer['contacts']['email'] }}</li>
                 <li><strong>Phone:</strong> {{ $developer['contacts']['phone'] }}</li>
                 <li><strong>GitHub:</strong> <a href="{{ $developer['contacts']['github'] }}" class="text-indigo-500 underline" target="_blank">{{ $developer['contacts']['github'] }}</a></li>
-                <li><strong>LinkedIn:</strong> <a href="{{ $developer['contacts']['linkedin'] }}" class="text-indigo-500 underline" target="_blank">{{ $developer['contacts']['linkedin'] }}</a></li>
             </ul>
         </div>
 

@@ -14,3 +14,8 @@
 - **Prompt Given:** "How do I structure index.php for deploying a Laravel app on shared hosting like InfinityFree?"
 - **AI Output:** Instructions to move `public` files to `htdocs` and fix `require` paths for `vendor/autoload.php` and `bootstrap/app.php`.
 - **Action Taken:** Applied changes to the production version for shared hosting setup.
+
+### Interaction 4: Remove LinkedIn Contact
+- **Prompt Given:** "remove linkedin"
+- **AI Output:** Instructions to remove the 'linkedin' key from PortfolioController.php and the corresponding list item from portfolio.blade.php.
+- **Action Taken:** Accepted and removed LinkedIn reference from controller and blade view.
