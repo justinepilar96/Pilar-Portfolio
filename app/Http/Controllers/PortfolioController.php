@@ -9,38 +9,35 @@ class PortfolioController extends Controller
     public function index()
     {
         $developer = [
-            'name' => 'Your Full Name',
-            'title' => 'Full-Stack Developer & IT Student',
+            'name' => 'Justine Pilar',
+            'title' => 'IT Student',
             'bio' => 'Passionate IT student specializing in modern web development, API integration, and cloud deployment. Driven by clean code, intuitive UI/UX design, and continuous learning.',
             'profile_picture' => 'images/profile.jpg', // Place your image in public/images/
             'status' => 'Open for Projects & Internships',
             'contacts' => [
-                'email' => 'your.email@example.com',
-                'phone' => '+63 912 345 6789',
-                'github' => 'https://github.com/yourusername',
-                'location' => 'Bangued, Abra, Philippines'
+                'email' => 'justinepilar06@gmail.com',
+                'phone' => '+63 966 283 6506',
+                'github' => 'https://github.com/justinepilar96/Pilar-Portfolio',
+                'location' => 'Santa Rosa, Bangued Abra, Philippines'
             ],
             'education' => [
                 [
                     'level' => 'College',
                     'school' => 'Data Center College of the Philippines - Bangued',
                     'degree' => 'Bachelor of Science in Information Technology',
-                    'period' => '2023 - Present',
-                    'highlights' => 'Focused on Integrative Programming, Database Systems, and Web Application Frameworks.'
+                    'period' => 'Present',
                 ],
                 [
                     'level' => 'Senior High School',
-                    'school' => 'Your Senior High School Name',
-                    'degree' => 'TVL - Information and Communications Technology (ICT)',
-                    'period' => '2021 - 2023',
-                    'highlights' => 'Academic excellence in Computer Systems Servicing and Basic Web Development.'
+                    'school' => 'Data Center College of the Philippines - Bangued',
+                    'degree' => 'HUMSS - Humanities and Social Sciences',
+                    'period' => '2022',
                 ],
                 [
                     'level' => 'Elementary School',
-                    'school' => 'Your Elementary School Name',
+                    'school' => 'Holy Spirit Academy of Bangued',
                     'degree' => 'Elementary Education Diploma',
-                    'period' => '2015 - 2021',
-                    'highlights' => 'Graduated with honors.'
+                    'period' => '2016',
                 ]
             ],
             'skills' => [
@@ -50,18 +47,8 @@ class PortfolioController extends Controller
             ],
             'certifications' => [
                 [
-                    'title' => 'Career Service Professional Eligibility (CSE)',
-                    'issuer' => 'Civil Service Commission (CSC)',
-                    'year' => '2025'
-                ],
-                [
-                    'title' => 'Full-Stack Web Development Bootcamp',
-                    'issuer' => 'Online Certification Platform',
-                    'year' => '2024'
-                ],
-                [
-                    'title' => 'Integrative Programming Workshop',
-                    'issuer' => 'Data Center College of the Philippines',
+                    'title' => 'Online Safety Through Netiquette - DICT Region II Webinar',
+                    'issuer' => 'Department of Information and Communications Technology (DICT) Region II',
                     'year' => '2026'
                 ]
             ]
