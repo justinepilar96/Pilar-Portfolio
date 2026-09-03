@@ -24,3 +24,8 @@
 - **Prompt Given:** "improvise the design, can be the number 1 in class to pass, give full codes"
 - **AI Output:** Provided a dark-themed, glassmorphism layout using Tailwind CSS CDN with custom glow effects, responsive navigation, categorized skills, and an academic timeline.
 - **Action Taken:** Replaced both `PortfolioController.php` and `portfolio.blade.php` to adopt the new responsive UI design.
+
+### Interaction Log Entry
+- **Prompt Given:** "put contacts before education"
+- **AI Output:** Updated `resources/views/portfolio.blade.php` to add a dedicated Contact Details grid before the Academic Background timeline and renumbered sections sequentially.
+- **Action Taken:** Accepted code, saved file, committed changes to Git, and pushed to GitHub repo.
